@@ -6,7 +6,7 @@ spring:
     properties:
       hibernate.format_sql: true
   datasource:
-    url: 'jdbc:postgresql://localhost:5432/school_app'
+    url: 'jdbc:postgresql://localhost:5432/pdp'
     username: postgres
     password: postgres
     driver-class-name: 'org.postgresql.Driver'
