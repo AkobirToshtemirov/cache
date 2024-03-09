@@ -10,3 +10,10 @@ spring:
     username: postgres
     password: postgres
     driver-class-name: 'org.postgresql.Driver'
+  cache:
+    redis:
+      time-to-live: 10h
+  data:
+    redis:
+      host: localhost
+      port: 6379
